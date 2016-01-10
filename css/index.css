@@ -1,0 +1,149 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+body {
+    font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    min-width: 230px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 300;
+}
+
+button,
+input[type="checkbox"] {
+    outline: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.mcqapp {
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    display: block;
+    position: relative;
+    padding: 20px;
+    border: 2px solid #1880C7;
+}
+
+#top-header {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 32px;
+    padding: 10px 0px 40px 0px;
+}
+
+#top-title {
+    position: relative;
+    display: block;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.content {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+#main {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#help-content {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+    display: inline-block;
+    width: 90%;
+}
+
+.action-button {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    background-color: #06B4D2;
+    color: white;
+    padding: 5px;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.question-text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.answer-options {
+    margin-bottom: 8px;
+}
+
+.mcqapp input::-webkit-input-placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: #e6e6e6;
+}
+
+.mcqapp input::-moz-placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: #e6e6e6;
+}
+
+.mcqapp input::input-placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: #e6e6e6;
+}
+
+#result-title {
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
